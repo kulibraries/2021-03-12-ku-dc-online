@@ -376,6 +376,8 @@ please preview your site before committing, and make sure to run
   {% endif %}
   workshop,
   you will need an up-to-date web browser and access to a spreadsheet program, OpenRefine, and R with RStudio.
+</p>
+<p>
   {% if site.carpentry == "swc" %}
   {% include swc/setup.html %}
   {% elsif site.carpentry == "dc" %}
